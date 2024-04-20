@@ -1,6 +1,11 @@
-const menuToggle = document.getElementById('menu-toggle');
-const dropdownMenu = document.getElementById('dropdown-menu');
 
-menuToggle.addEventListener('click', () => {
-  dropdownMenu.classList.toggle('show');
-});
+function toggle(){ 
+    var nav = document.getElementById("nav")
+    var blur = document.getElementById("blur")
+    var nav1 = document.getElementById("navbar")
+    blur.classList.toggle('active')
+    nav1.classList.toggle('showagain')
+    nav.classList.toggle('show');
+ }
+
+
