@@ -1,0 +1,471 @@
+*{ 
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    width: 100%;
+    
+    font-family:  Bahnschrift, "piroca";
+    
+    
+}
+body{
+    
+    background-color:  #22262b;
+}
+main {
+
+background-color: 0;
+
+
+
+}
+
+nav{ 
+   
+    background-color:  #0b0b14;
+    
+    height: 50px;
+    width: 100%;
+    text-align: left;
+    display:block ;
+
+
+}
+.navbar{
+ 
+   
+      background-color:  #0b0b14;
+    font-size: medium;
+    display: inline-block;
+    
+    
+}
+
+i {
+
+    
+    font-size: 20px;
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+    display: flexbox;
+
+    
+}
+
+
+#but{
+    display: none;
+    
+    font-size: small;
+}
+i:hover{
+  
+    background-color: transparent;
+    color:#a5a7bb;
+        
+
+    
+}
+
+.BioUltraHome{
+    
+    transition:.5s;
+    
+    border-bottom: 1px solid rgb(133, 127, 127);
+    border-radius: 20px;
+    color:rgb(130, 130, 130);
+
+    text-align:center;
+    border-radius: 10px;
+    max-width: max-content;
+    background-color: transparent;
+    font-size: small ;
+    
+
+
+
+
+}
+.BioUltraHome:hover{
+    
+
+    transition:.5s;
+    color:rgb(255, 255, 255);
+  
+    text-align:center;
+    border-radius: 5px;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:1px;
+    max-width: max-content;
+    /*background-color: rgb( 130, 130, 130);*/
+    cursor:default; 
+    min-width: max-content;
+    border-color:rgb(71, 40, 155);
+
+
+}
+nav img{
+    
+    width: 35px;
+ 
+ 
+}
+
+
+.navbar ul{
+list-style: none;
+margin-top: 2%;
+
+
+
+
+
+
+
+
+}
+
+
+.navbar li {
+ display: inline;
+
+    
+    }
+
+.navbar li a {
+text-decoration: none;
+color: rgb(255, 255, 255); 
+
+width: 100%;
+font-size: 15px;
+
+
+
+
+}
+#home{
+    text-decoration: underline;
+}
+.navbar li a:hover {
+transition: .5s;
+color: #ccc; 
+text-decoration: underline;
+width: 100%;
+text-decoration-color: red;
+cursor:pointer;
+
+}
+#navbar.showagain{
+
+display:inline;
+
+
+
+}
+#nav.navbar.show ul  {
+
+
+background-color:   #0e0e14;
+
+
+width: 20%;
+border-radius: 5px;
+height: 1900%;
+transition: .3s;
+font-size: small;
+}
+#nav.navbar.show{
+display: contents;
+font-size: small;
+}
+#nav.navbar.show ul li{
+display: in;
+font-size: small;
+text-align: left;
+margin-left: 3%;
+
+
+
+
+
+}
+#nav.navbar.show ul li a{
+color: white;
+transition: .5s;
+font-size: small;
+}
+#nav.navbar.show i{
+ display: none;
+}
+
+.container#blur.active {
+filter: blur(2px);
+
+}
+.container#blur.active a {
+display: contents;
+
+}
+.container#blur.active footer {
+display: none;
+
+
+}
+#nav.navbar.show #but{
+display:block;
+width: 20px;
+position: relative;
+background:transparent;
+color: #ccc;
+margin-left: 80%;
+border-color: azure;
+border-style:solid ;
+
+
+
+}
+
+
+
+
+footer{ 
+bottom: 0;
+position: absolute;
+background-color:  #0e0e14;
+color: white;
+height: 6%;
+
+
+}
+
+
+
+
+
+
+.disc3{ 
+    max-height:  6%;
+    max-width: 6%;
+    
+    margin-top: 9px;
+    float:right;
+    
+    }
+    
+    .disc3:hover{ 
+    transition: .5s;
+    display: flex;
+    background-color: rgb(120, 128, 245);
+    border-radius: 9px;
+    }
+    
+
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+    @media only screen and (min-width: 1024px) {
+        *{ 
+            padding: 0;
+            margin: 0;
+            border: 0;
+            width: 100%;
+            font-family: Bahnschrift, "piroca";
+            
+            
+        }
+        body{
+            
+            background-color:  #212529;
+        }
+        main {
+        
+        background-color: 0;
+        
+        
+        
+        }
+        nav{ 
+            width: 100%;
+            height: 50px;
+            background-color:  #181717;
+         
+        
+        }
+        .navbar{
+            width: 30%;
+            max-height: 100%;
+            background-color:  #181717;
+            font-size: small;
+        }
+
+        i {
+
+            margin-left: 40%;
+            margin-top: 40%;
+            font-size: 30px;
+            background-color: transparent;
+            color:rgb(255, 255, 255);
+            
+        }
+        #but{
+            display: none;
+            position: relative;
+            font-size: small;
+        }
+        i:hover{
+          
+            background-color: transparent;
+            color:#a5a7bb;
+                
+            margin-left: 40%;
+            margin-top: 40%;
+            font-size: 30px;
+            
+        }
+        
+        .BioUltraHome{
+            
+        transition:.5s;
+            border-top: 0px solid;
+        border-bottom: 0.1px solid rgb(133, 127, 127);
+        border-radius: 50px;
+            color:rgb(130, 130, 130);
+            font-size: 35px;
+            text-align:center;
+            border-radius: 0px;
+            max-width: 12%;
+            background-color: transparent;
+            
+
+
+        
+        
+        }
+        .BioUltraHome:hover{
+            
+        
+            transition:.5s;
+            color:rgb(7, 94, 175);
+            font-size: 35px;
+            text-align:center;
+            border-radius: 5px;
+            border-bottom-right-radius:20px;
+            border-bottom-left-radius:20px;
+            max-width: 12%;
+            /*background-color: rgb( 130, 130, 130);*/
+            cursor:default; 
+            border-color:rgb(40, 113, 155);
+        
+        
+        }
+        
+    
+
+    .navbar ul {
+        list-style: none;
+
+        display: flex;
+
+        
+        
+
+    }
+    
+    
+    
+    .navbar li a {
+        text-decoration: none;
+        color: rgb(255, 255, 255); 
+        display: inline-block;
+        margin-top: 7%;
+        width:auto;
+        font-size: 15px;
+
+
+
+    }
+
+    .navbar li a:hover {
+        transition: .3s;
+        color: #ccc; 
+        text-decoration: underline;
+        width: 100%;
+        text-decoration-color: red;
+        cursor:pointer;
+
+    }
+    #navbar.showagain{
+    
+        display:contents;
+   
+
+        
+    }
+    #nav.navbar.show ul  {
+        
+
+        background-color:  #0f0f11;
+     
+        display: inline-block;
+        width: 20%;
+        border-radius: 5px;
+        height: 1900%;
+        transition: .3s;
+        
+    }
+
+    #nav.navbar.show ul li{
+      
+        
+        text-align: left;
+        margin-left: 1%;
+       display: inline-block;
+
+        
+
+    
+    }
+    #nav.navbar.show ul li a{
+        color: white;
+        transition: .5s;
+        
+    }
+    #nav.navbar.show i{
+         display: none;
+    }
+
+
+    .container#blur.active {
+        filter: blur(2px);
+
+    }
+
+
+    footer{ 
+        bottom: 0;
+        position: absolute;
+        background-color:  #0e0e14;
+        color: white;
+    height: 5%;
+    
+        
+    }
+
+
+        
+    
+
+
+    .disc3{ 
+       
+        max-height:  6%;
+        max-width: 6%;
+        float:right;
+        
+        }
+        
+        .disc3:hover{ 
+        transition: .5s;
+        display: flex;
+        background-color: rgb(120, 128, 245);
+        border-radius: 9px;}
+
+}
