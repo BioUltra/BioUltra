@@ -111,16 +111,19 @@ main {
 
 .navbar-logo {
  
-    width: 30px;
-    height: 30px;
+    width: 70px;
+    height: 70px;
     margin-right: 0.5em;
+    border-radius: 0%;
+    margin-bottom: 0.5em;
 }
 .navbar-logo img {
     
-   
-    width: 30px;
-    height: 30px;
+   border-radius: 30%;
+    width: 70px;
+    height: 70px;
     margin-right: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .navbar-toggle {
